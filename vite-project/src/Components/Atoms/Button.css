@@ -1,0 +1,19 @@
+button {
+   background: url(https://i.imgur.com/Rxx8T6H.png);
+    width: 46px;
+    height: 46px;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+    border: black;
+    position: absolute;
+    top: 1.2%;
+    margin-left: 270px;
+    opacity: 20%;
+    transition: transform 0.3s;
+}
+
+button:active {
+    transform: scale(1.2);
+  }
+
