@@ -1,8 +1,8 @@
-import './../Atoms/Button.css'
-function Button (){
+import './../Atoms/StyleAtoms/Button.css'
+function Button ({onClick}){
     return (
         <>
-            <button></button>
+            <button onClick={onClick} ></button>
         </>
     );
 }

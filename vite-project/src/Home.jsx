@@ -1,5 +1,5 @@
-import Clima from "./Components/Template/Clima";
-import Buscador from "./Components/Molecule/Buscador";
+import Clima from "./Components/Organisms/Clima";
+
 function Home() {
     return (
         <>
