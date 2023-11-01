@@ -1,12 +1,10 @@
-import Clima from "./Components/Organisms/Clima";
+import Clima from "./Components/Template.jsx/Clima";
 
 function Home() {
     return (
         <>
            
-            <Clima>
-           
-            </Clima>
+            <Clima> </Clima>
         </>
     );
 }

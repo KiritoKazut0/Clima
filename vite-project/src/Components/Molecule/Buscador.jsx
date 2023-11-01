@@ -8,13 +8,13 @@ const StyleBuscador = styled.div`
 `;
 
 
-function Buscador({onChange, onClick, display, warning, error}) {
+function Buscador({onChange, onClick, display, warning, onBlur}) {
  
 
   return (
     <>
       <StyleBuscador>
-        <Input onChange={onChange}></Input>
+        <Input onChange={onChange} onBlur={onBlur}></Input>
         <Alert
           sx={{
             width: '40%',
@@ -33,6 +33,7 @@ function Buscador({onChange, onClick, display, warning, error}) {
         > {"El campo no debe estar vacio"}
         </Alert>
       </StyleBuscador>
+      
       <Button onClick={onClick} ></Button>
 
 

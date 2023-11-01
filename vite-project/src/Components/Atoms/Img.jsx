@@ -2,7 +2,9 @@ import './../Atoms/StyleAtoms/Img.css'
 function Img ({src}){
     return(
         <>
-            <img src="" alt="" />
+            <img src={src} />
         </>
     );
 }
+
+export default Img;
